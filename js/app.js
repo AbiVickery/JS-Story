@@ -69,3 +69,13 @@ var rutile = new Rockly('Rutile');
 var phos = new Rockly('Phosphopylite');
 var cinn = new Rockly('Cinnabar');
 var bis = new Rockly('Bismuth');
+
+quart.getName();
+coal.getName();
+jas.getName();
+emer.getName();
+dia.getName();
+rutile.getName();
+phos.getName();
+cinn.getName();
+bis.getName();
