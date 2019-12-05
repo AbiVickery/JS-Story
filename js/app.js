@@ -29,3 +29,18 @@ function choice2(data) {
 
 choice1();
 choice2();
+
+class Plantly {
+    constructor(name) {
+        this.name = name;
+    }
+    getName() {
+        console.log(this.name);
+    }
+}
+
+var rose = new Plantly('Rose');
+var tulip =  new Plantly('Tulip');
+var mum = new Plantly('Chrysanthemum');
+var daff = new Plantly('Daffodil');
+var snap = new Plantly('Snap Dragon');
