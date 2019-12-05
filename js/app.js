@@ -44,3 +44,9 @@ var tulip =  new Plantly('Tulip');
 var mum = new Plantly('Chrysanthemum');
 var daff = new Plantly('Daffodil');
 var snap = new Plantly('Snap Dragon');
+
+rose.getName();
+tulip.getName();
+mum.getName();
+daff.getName();
+snap.getName();
