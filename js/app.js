@@ -1,9 +1,9 @@
 // build your own adventure
 // at least four stages
 
-// var dr = 'The Doctor';
-// var spk = 'Sparkly Keys';
-// var dalek = 'Dalek';
+/*  var dr = 'The Doctor';
+    var spk = 'Sparkly Keys';
+    var dalek = 'Dalek';     */
 
 function choice1(data) {
     var c1 = 'Choice1';
