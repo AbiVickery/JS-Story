@@ -50,3 +50,22 @@ tulip.getName();
 mum.getName();
 daff.getName();
 snap.getName();
+
+class Rockly {
+    constructor(name) {
+        this.name = name;
+    }
+    getName() {
+        console.log(this.name);
+    }
+}
+
+var quart = new Rockly('Quartz');
+var coal = new Rockly('Coal');
+var jas = new Rockly('Jasper');
+var emer = new Rockly('Emerald');
+var dia = new Rockly('Diamond');
+var rutile = new Rockly('Rutile');
+var phos = new Rockly('Phosphopylite');
+var cinn = new Rockly('Cinnabar');
+var bis = new Rockly('Bismuth');
