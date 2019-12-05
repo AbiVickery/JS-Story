@@ -44,12 +44,22 @@ var tulip =  new Plantly('Tulip');
 var mum = new Plantly('Chrysanthemum');
 var daff = new Plantly('Daffodil');
 var snap = new Plantly('Snap Dragon');
+var alg = new Plantly('Algae');
+var liv = new Plantly('Liverworts');
+var moss = new Plantly('Moss');
+var fern = new Plantly('Fern');
+var hort = new Plantly('Horsetail');
 
 rose.getName();
 tulip.getName();
 mum.getName();
 daff.getName();
 snap.getName();
+alg.getName();
+liv.getName();
+moss.getName();
+fern.getName();
+hort.getName();
 
 class Rockly {
     constructor(name) {
