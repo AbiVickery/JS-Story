@@ -121,21 +121,27 @@ function lilrock(payload) {
 
     if (ans == 'A') {
         console.log(character.type[0]);
-        document.write('You are a Pebble. You are sweet and tiny. So cute!');
+        // document.write('You are a Pebble. You are sweet and tiny. So cute!');
+        alert('You are a Pebble. You are sweet and tiny. So cute!');
     } else if (ans == 'B') {
         console.log(character.type[1]);
-        document.write('You are a rock, just a plain \'ol rock, not that special...');
+        // document.write('You are a rock, just a plain \'ol rock, not that special...');
+        alert('You are a rock, just a plain \'ol rock, not that special...');
     } else if (ans == 'C') {
         console.log(character.type[2]);
-        document.write('You are a Ruby. A beautiful red color, hard, and tough.');
+        // document.write('You are a Ruby. A beautiful red color, hard, and tough.');
+        alert('You are a Ruby. A beautiful red color, hard and tough.');
     } else if (ans == 'D') {
         console.log(character.type[3]);
-        document.write('You are a Diamond. You shine brightly and colorfully! You are hard under pressure! But can still shatter so be carefull.');
+        // document.write('You are a Diamond. You shine brightly and colorfully! You are hard under pressure! But can still shatter so be carefull.');
+        alert('You are a Diamond. You shine brightly and colorfully! You are hard under pressure! But can still shatter so be carefull');
     } else if (ans == 'E') {
         console.log(character.type[4]);
-        document.write('You are a Topaz. You have a nice shine, you\'re tough and do what you want!');
+        // document.write('You are a Topaz. You have a nice shine, you\'re tough and do what you want!');
+        alert('You are a Topaz. You have a nice shine, you\'re tough and do what you want!');
     } else if (ans == 'F') {
         console.log(character.type[5]);
-        document.write('You are Petrified Gum... You used to be a stick of sugar but were than chewed up, spat out and sat on a street for so long, you ended up just like those historical Petrified logs of wood you would find in a museum...');
+        // document.write('You are Petrified Gum... You used to be a stick of sugar but were than chewed up, spat out and sat on a street for so long, you ended up just like those historical Petrified logs of wood you would find in a museum...');
+        alert('You are Petrified Gum... You used to be a stick of sugar but you have been chewed up, spat out and sat on a street for so long, you ended up just like those historical petrified logs of wood you would find in a museum...');
     }
 }
