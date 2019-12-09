@@ -147,14 +147,24 @@ function lilrock(payload) {
 }
 /* Scenario 1:
  You are sitting on a hill and a bird sees you. Do you: {A. do nothing} {B. run/roll away}
-
+    if (answer == A.) {
+        display S1a1
+    } else if (answer == B.) {
+        display S1a2
+    };
+    (S1a1) {
+        alert('The bird sees you as just another ordinary rock (cause birds arent always all that bright) and leaves you alone.')
+    }
+    (S1a2) {
+        alert('A light breeze blows over you and you start rolling down the long hill. The bird takes notice and flies after you. Once it catches up to you, it then swoops down and grabs you, carrying you off into the sunset, never to be seen again. Such a shame, you were a nice rock too.')
+    }
 
  */
-
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 /* Scenario 2:
 
 */
-
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 /* Scenario 3:
 
 */
