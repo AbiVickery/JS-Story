@@ -75,7 +75,16 @@ lilrock();
  */
 function scenario1() {
     alert('You are sitting on a hill and a bird flying in the air sees you. Do you: {A. Do nothing} or {B. Run/Roll away}?')
-    
+    // takes answers
+    if (ans == 'A','a') {
+        // display S1a1
+        alert('The bird sees you as just another ordinary rock (cause birds arent always all that bright) and leaves you alone.');
+        console.log('S1 ans1');
+    } else if (ans == 'B','b') {
+        // display S1a2
+        alert('A light breeze blows over you and you start rolling down the long hill. The bird takes notice and flies after you. Once it catches up to you, it then swoops down and grabs you, carrying you off into the sunset, never to be seen again. Such a shame, you were a nice rock too.');
+        console.log('S1 ans2');
+    }
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
