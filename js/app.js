@@ -86,6 +86,7 @@ function scenario1() {
         console.log('S1 ans2');
     }
 }
+scenario1();
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 /* Scenario 2:
@@ -95,3 +96,6 @@ function scenario1() {
 /* Scenario 3:
 
 */
+
+// Reload page for new adventure once you finish
+document.write('Reload page for a new adventure once you finish!');
