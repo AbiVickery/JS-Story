@@ -14,12 +14,16 @@ var character = {
     name: 'rock',
     type: ['Pebble', 'rock', 'Ruby', 'Diamond', 'topaz', 'Petrified gum']
 }
-var monster = {
-    mon1 = 'A human',
-    mon2 = 'A boot',
-    mon3 = 'A bird',
-    mon4 = 'A river'
-}
+// var monster = {
+//     mon1 = 'A human',
+//     mon2 = 'A boot',
+//     mon3 = 'A bird',
+//     mon4 = 'A river'
+// }
+
+// var monster = {
+//     monster = ['A human', 'A boot', 'A bird', 'A river']
+// };
 
 function lilrock(payload) {
     let avatar = alert("Choose who you are! (your type of rock)");
