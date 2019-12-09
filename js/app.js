@@ -90,7 +90,8 @@ scenario1();
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 /* Scenario 2:
-
+You are now sitting by a river bed. The water looks inviting but you know better than to go in because you will sink to the bottom. As you sit there staring at the water, some storm clouds gather overhead, threatening to rain. Rain never bothered you anyway, but this could be enough to flood, and you know what that means...
+Do you: {A. wait to see how bad it gets} or {B. roll into the river}?
 */
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 /* Scenario 3:
