@@ -103,7 +103,7 @@
 // {3 different scenarioes}
 
 var character = {
-    // health: 'NA',
+    // health: 'undefined',
     name: 'rock',
     type: ['Pebble', 'rock', 'Ruby', 'Diamond', 'topaz', 'Petrified gum']
 }
@@ -145,3 +145,8 @@ function lilrock(payload) {
         alert('You are Petrified Gum... You used to be a stick of sugar but you have been chewed up, spat out and sat on a street for so long, you ended up just like those historical petrified logs of wood you would find in a museum...');
     }
 }
+// Scenario 1:
+
+// Scenario 2:
+
+// Scenario 3:
