@@ -28,7 +28,7 @@ var character = {
 function lilrock(payload) {
     let avatar = alert("Choose who you are! (your type of rock)");
     console.log('Choosing avatar');
-    ans = prompt('A for Pebble ,' + payload.rock1 + 'B for Rock ,' + payload.rock2 + 'C for Ruby ,' + payload.rock3 + 'D for Diamond ,' + payload.rock4 + 'E for Topaz ' + payload.rock5 + 'And F for Petrified Gum.');
+    ans = prompt('A for Pebble ,' + payload(character.type[0]) + 'B for Rock ,' + payload(character.type[1]) + 'C for Ruby ,' + payload(character.type[2]) + 'D for Diamond ,' + payload(character.type[3]) + 'E for Topaz ' + payload(character.type[4]) + 'And F for Petrified Gum.' + payload(character.type[5]));
 
     if (ans == 'A','a') {
         console.log(character.type[0]);
@@ -56,6 +56,8 @@ function lilrock(payload) {
         alert('You are Petrified Gum... You used to be a stick of sugar but you have been chewed up, spat out and sat on a street for so long, you ended up just like those historical petrified logs of wood you would find in a museum...');
     }
 }
+
+lilrock();
 /* Scenario 1:
  You are sitting on a hill and a bird sees you. Do you: {A. do nothing} {B. run/roll away}
     if (answer == A.) {
