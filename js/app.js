@@ -28,7 +28,7 @@ var character = {
 function lilrock(payload) {
     let avatar = alert("Choose who you are! (your type of rock)");
     console.log('Choosing avatar');
-    ans = prompt('A for Pebble ,' + payload(character.type[0]) + 'B for Rock ,' + payload(character.type[1]) + 'C for Ruby ,' + payload(character.type[2]) + 'D for Diamond ,' + payload(character.type[3]) + 'E for Topaz ' + payload(character.type[4]) + 'And F for Petrified Gum.' + payload(character.type[5]));
+    ans = prompt(payload(character.type[0]) + 'A for Pebble ,' + payload(character.type[1]) + 'B for Rock ,' + payload(character.type[2]) + 'C for Ruby ,' + payload(character.type[3]) + 'D for Diamond ,' + payload(character.type[4]) + 'E for Topaz ' + payload(character.type[5]) + 'And F for Petrified Gum.');
 
     if (ans == 'A','a') {
         console.log(character.type[0]);
@@ -73,7 +73,10 @@ lilrock();
     }
 
  */
-
+function scenario1() {
+    alert('You are sitting on a hill and a bird flying in the air sees you. Do you: {A. Do nothing} or {B. Run/Roll away}?')
+    
+}
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 /* Scenario 2:
