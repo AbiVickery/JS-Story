@@ -93,6 +93,21 @@ scenario1();
 You are now sitting by a river bed. The water looks inviting but you know better than to go in because you will sink to the bottom. As you sit there staring at the water, some storm clouds gather overhead, threatening to rain. Rain never bothered you anyway, but this could be enough to flood, and you know what that means...
 Do you: {A. wait to see how bad it gets} or {B. roll into the river}?
 */
+function scenario2() {
+    alert('You are now sitting by a river bed. The water looks inviting but you know better than to go in because you will sink to the bottom. As you sit there staring at the water, some storm clouds gather overhead, threatening to rain. Rain never bothered you anyway, but this could be enough to flood, and you know what that means...');
+    alert('Do you: A. Wait to see how bad it gets. Or B. Roll into the river?');
+    // takes answer
+    if (ans == 'A','a') {
+        // display S2a1
+        alert('You continue to sit there, staring up at the storm clouds. It soon starts to rain. As it continues raining, more water covers the ground. Eventually a nearby creek floods over and washes you away with it.');
+        console.log('S2 ans1');
+    } else if (ans == 'B','b') {
+        // display S2a2
+        alert('You roll over into the river. As you do this, you start to sink to the bottom. When you reach the bottom, you see other kinds of rocks sitting there. Along with other kinds of rocks, there are also some different items people have lost to the water. There is even a shiny gold ring. Wonder how that got there... For now, you are stuck at the bottom of the riverbed, waiting for what comes next.');
+        console.log('S2 ans2');
+    }
+}
+scenario2();
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 /* Scenario 3:
 
