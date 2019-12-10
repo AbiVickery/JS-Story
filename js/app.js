@@ -25,39 +25,39 @@ var character = {
 //     monster = ['A human', 'A boot', 'A bird', 'A river']
 // };
 
-function lilrock(payload) {
-    let avatar = alert("Choose who you are! (your type of rock)");
-    console.log('Choosing avatar');
-    ans = prompt(payload(character.type[0]) + 'A for Pebble ,' + payload(character.type[1]) + 'B for Rock ,' + payload(character.type[2]) + 'C for Ruby ,' + payload(character.type[3]) + 'D for Diamond ,' + payload(character.type[4]) + 'E for Topaz ' + payload(character.type[5]) + 'And F for Petrified Gum.');
+// function lilrock(payload) {
+//     let avatar = alert("Choose who you are! (your type of rock)");
+//     console.log('Choosing avatar');
+//     ans = prompt(payload(character.type[0]) + 'A for Pebble ,' + payload(character.type[1]) + 'B for Rock ,' + payload(character.type[2]) + 'C for Ruby ,' + payload(character.type[3]) + 'D for Diamond ,' + payload(character.type[4]) + 'E for Topaz ' + payload(character.type[5]) + 'And F for Petrified Gum.');
 
-    if (ans == 'A','a') {
-        console.log(character.type[0]);
-        // document.write('You are a Pebble. You are sweet and tiny. So cute!');
-        alert('You are a Pebble. You are sweet and tiny. So cute!');
-    } else if (ans == 'B','b') {
-        console.log(character.type[1]);
-        // document.write('You are a rock, just a plain \'ol rock, not that special...');
-        alert('You are a rock, just a plain \'ol rock, not that special...');
-    } else if (ans == 'C','c') {
-        console.log(character.type[2]);
-        // document.write('You are a Ruby. A beautiful red color, hard, and tough.');
-        alert('You are a Ruby. A beautiful red color, hard and tough.');
-    } else if (ans == 'D','d') {
-        console.log(character.type[3]);
-        // document.write('You are a Diamond. You shine brightly and colorfully! You are hard under pressure! But can still shatter so be carefull.');
-        alert('You are a Diamond. You shine brightly and colorfully! You are hard under pressure! But can still shatter so be carefull');
-    } else if (ans == 'E','e') {
-        console.log(character.type[4]);
-        // document.write('You are a Topaz. You have a nice shine, you\'re tough and do what you want!');
-        alert('You are a Topaz. You have a nice shine, you\'re tough and do what you want!');
-    } else if (ans == 'F','f') {
-        console.log(character.type[5]);
-        // document.write('You are Petrified Gum... You used to be a stick of sugar but were than chewed up, spat out and sat on a street for so long, you ended up just like those historical Petrified logs of wood you would find in a museum...');
-        alert('You are Petrified Gum... You used to be a stick of sugar but you have been chewed up, spat out and sat on a street for so long, you ended up just like those historical petrified logs of wood you would find in a museum...');
-    }
-}
+//     if (ans == 'A','a') {
+//         console.log(character.type[0]);
+//         // document.write('You are a Pebble. You are sweet and tiny. So cute!');
+//         alert('You are a Pebble. You are sweet and tiny. So cute!');
+//     } else if (ans == 'B','b') {
+//         console.log(character.type[1]);
+//         // document.write('You are a rock, just a plain \'ol rock, not that special...');
+//         alert('You are a rock, just a plain \'ol rock, not that special...');
+//     } else if (ans == 'C','c') {
+//         console.log(character.type[2]);
+//         // document.write('You are a Ruby. A beautiful red color, hard, and tough.');
+//         alert('You are a Ruby. A beautiful red color, hard and tough.');
+//     } else if (ans == 'D','d') {
+//         console.log(character.type[3]);
+//         // document.write('You are a Diamond. You shine brightly and colorfully! You are hard under pressure! But can still shatter so be carefull.');
+//         alert('You are a Diamond. You shine brightly and colorfully! You are hard under pressure! But can still shatter so be carefull');
+//     } else if (ans == 'E','e') {
+//         console.log(character.type[4]);
+//         // document.write('You are a Topaz. You have a nice shine, you\'re tough and do what you want!');
+//         alert('You are a Topaz. You have a nice shine, you\'re tough and do what you want!');
+//     } else if (ans == 'F','f') {
+//         console.log(character.type[5]);
+//         // document.write('You are Petrified Gum... You used to be a stick of sugar but were than chewed up, spat out and sat on a street for so long, you ended up just like those historical Petrified logs of wood you would find in a museum...');
+//         alert('You are Petrified Gum... You used to be a stick of sugar but you have been chewed up, spat out and sat on a street for so long, you ended up just like those historical petrified logs of wood you would find in a museum...');
+//     }
+// }
 
-lilrock();
+// lilrock();
 /* Scenario 1:
  You are sitting on a hill and a bird sees you. Do you: {A. do nothing} {B. run/roll away}
     if (answer == A.) {
@@ -122,15 +122,17 @@ function scenario3() {
     // takes answer
     if (ans == 'A','a') {
         // display S3a1
-        alert('');
+        alert('You stay where you are and the fish sees you and swallows you up, thinking you are shiny food! (If it was aiming for the ring next to you, its a stupid fish!) As you now sit inside the mouth of the fish, it just so happens that same fish gets caught by the people fishing in the river. When they open the mouth of the fish and see you in it, they take you out and throw you back in the river... You might never feel the grass again at this point.');
+        alert('The end...')
         console.log('S3 ans1');
     } else if (ans == 'B','b') {
         // display S3a2
-        alert('');
+        alert('You are a rock, you can\'t run or swim! You can\'t even move! Luckily, the fish was going for a shiny lure that just so happened to be nearby. The fish got caught on the lure and was brought up to the surface while you stayed down at the bottom. Who knows how long you will be stuck down there.');
+        alert('The end...');
         console.log('S3 ans2');
     }
 }
 scenario3();
 
 // Reload page for new adventure once you finish
-document.write('Reload page for a new adventure once you finish!');
+// document.write('Reload page for a new adventure once you finish!');

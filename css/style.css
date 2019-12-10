@@ -6,3 +6,9 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0d9408",endColorstr="#ff291a",GradientType=1);
     font-family: 'Indie Flower', cursive;
 }
+
+#relo {
+    @media screen {
+        /* do stuff */
+    }
+}
