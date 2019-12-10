@@ -74,7 +74,8 @@ lilrock();
 
  */
 function scenario1() {
-    alert('You are sitting on a hill and a bird flying in the air sees you. Do you: {A. Do nothing} or {B. Run/Roll away}?')
+    alert('You are sitting on a hill and a bird flying in the air sees you.')
+    prompt('Do you: {A. Do nothing} or {B. Run/Roll away}?')
     // takes answers
     if (ans == 'A','a') {
         // display S1a1
@@ -95,7 +96,7 @@ Do you: {A. wait to see how bad it gets} or {B. roll into the river}?
 */
 function scenario2() {
     alert('You are now sitting by a river bed. The water looks inviting but you know better than to go in because you will sink to the bottom. As you sit there staring at the water, some storm clouds gather overhead, threatening to rain. Rain never bothered you anyway, but this could be enough to flood, and you know what that means...');
-    alert('Do you: A. Wait to see how bad it gets. Or B. Roll into the river?');
+    prompt('Do you: A. Wait to see how bad it gets. Or B. Roll into the river?');
     // takes answer
     if (ans == 'A','a') {
         // display S2a1
@@ -110,8 +111,26 @@ function scenario2() {
 scenario2();
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 /* Scenario 3:
-
+You are now sitting at the bottom of the river bed, along with other items, waiting for something to happen. As you sit there, you notice overhead what appears to be a boat of sorts. Not a big boat like those in the ocean, just a small row boat. How do you know its a boat? The shadow its casting, only a boat would cast that kind of shadow.
+Anyway, a line is tossed into the water. It seems like whoever is in the boat is going fishing. lucky them. As you sit there while they are fishing, a fish comes near you. Normally the fish that swim in the river are all attracted to shrimpy things or bugs but this fish seems to be attracted to shiny objects... You aren't sure if its you the fish is interested in or the shiny ring next to you... but it starts swiming fast towards you!
+Do you: {A. stay where you are and see what happens?} or {B. Run/swim away from the fish!}?
 */
+function scenario3() {
+    alert('You are now sitting at the bottom of the river bed, along with other items, waiting for something to happen. As you sit there, you notice overhead what appears to be a boad of sorts. Not a big boat like those in the ocean, just a small row boat. How do you know its a boat? The shadow its casting, only a boat would cast that kind of shadow.');
+    alert('Anyway, a line is tossed into the water. It seems like whoever is in the boat is going fishing. Lucky them. As you sit there while they are fishing a fish comes near you. Normally the fish that swim in the river are all attracted to shrimpy things or bugs but this fish seems to be attracted to shiny objects... You aren\'t sure if its you the fish is interested in or the shiny ring next to you... but it starts swiming fast towards you!');
+    prompt('Do you: A. Stay where you are and see what happends? or B. Run/swim away from the fish?');
+    // takes answer
+    if (ans == 'A','a') {
+        // display S3a1
+        alert('');
+        console.log('S3 ans1');
+    } else if (ans == 'B','b') {
+        // display S3a2
+        alert('');
+        console.log('S3 ans2');
+    }
+}
+scenario3();
 
 // Reload page for new adventure once you finish
 document.write('Reload page for a new adventure once you finish!');
