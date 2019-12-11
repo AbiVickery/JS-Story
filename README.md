@@ -94,3 +94,12 @@
 // cinn.getName();
 // bis.getName();
 
+
+# Let me tell you about these different ideas 
+
+The first idea was of a my little pony version of doctor who and my mlp oc Sparkly Keys. I didnt really want to program them in like this, I was just thinking blankly I guess. I scrapped that for something later.
+
+The second idea was for a plant theme. You can choose what plant you would be, hence the different plant vars. There was a rose, a tulip, a chrysanthemum (mum for short), a snapdragon, a daffodil, a fern, some algae, moss, and 2 plants i had never even heard of before ( I had to look them up) called horsetail and liverworts. The furthest I got with this idea was that first you would choose what plant you were going to be. Then, it would play out life as that plant. I soon realized that I was overthinking everything. So I scrapped the idea. Put it away in storage. 
+
+Then I had a great idea! An adventure that tells the story of a rock. Specifically from the p.o.v of a rock (point.of.view).
+First, I made some different rock vars. I then did was I always do and started overthinking everything. I eventually had to stop myself and just focus on how the code was going to work, before I went to far into the other stuff.
