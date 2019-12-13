@@ -14,7 +14,11 @@ body {
 }
 
 
-
 /* #relo  */
 /* {} */
 /* @media screen  */
+
+#thanks {
+    color: peru;
+    font-family: 'Indie Flower', cursive;
+}
