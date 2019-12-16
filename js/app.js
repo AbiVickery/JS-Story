@@ -111,10 +111,10 @@ function scenario2() {
         // display S2a2
         alert('You roll over into the river. As you do this, you start to sink to the bottom. When you reach the bottom, you see other kinds of rocks sitting there. Along with other kinds of rocks, there are also some different items people have lost to the water. There is even a shiny gold ring. Wonder how that got there... For now, you are stuck at the bottom of the riverbed, waiting for what comes next.');
         console.log('rolled into river');
-    } else {
-        alert('Seriously? You just can\'t answer like a human being can you? Just answer the question with either \'a\' or \'b\'!');
-        console.log('still an idiot');
-    }
+     } // else {
+    //     alert('Seriously? You just can\'t answer like a human being can you? Just answer the question with either \'a\' or \'b\'!');
+    //     console.log('still an idiot');
+    // }
 }
 scenario2();
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -138,13 +138,15 @@ function scenario3() {
         alert('You are a rock, you can\'t run or swim! You can\'t even move! Luckily, the fish was going for a shiny lure that just so happened to be nearby. The fish got caught on the lure and was brought up to the surface while you stayed down at the bottom. Who knows how long you will be stuck down there.');
         alert('The end...');
         console.log('idiot rock');
-    } else {
-        alert('THATS IT! I PUT A LOT OF HARD WORK INTO THIS GAME AND THIS IS THE THANKS I GET!? i hope you know how to find this site again...');
-        shutdown();
-        // build page closing function
-    }
+     } // else {
+    //     alert('THATS IT! I PUT A LOT OF HARD WORK INTO THIS GAME AND THIS IS THE THANKS I GET!? i hope you know how to find this site again...');
+    //     shutdown();
+    //     // build page closing function
+    // }
 }
 scenario3();
+
+
 
 // Reload page for new adventure once you finish
 // document.write('Reload page for a new adventure once you finish!')
