@@ -77,14 +77,17 @@ function scenario1() {
     alert('You are sitting on a hill and a bird flying in the air sees you.')
     ans1 = prompt('Do you: {A. Do nothing} or {B. Run/Roll away}?')
     // takes answers
-    if (ans1 == 'A','a') {
+    if (ans1 == [
+        'a',
+        'A'
+    ]) {
         // display S1a1
         alert('The bird sees you as just another ordinary rock (cause birds arent always all that bright) and leaves you alone.');
-        console.log('did nothing');
+        console.log('answer 1/2');
     } else {
         // display S1a2
         alert('A light breeze blows over you and you start rolling down the long hill. The bird takes notice and flies after you. Once it catches up to you, it then swoops down and grabs you, carrying you off into the sunset, never to be seen again. Such a shame, you were a nice rock too.');
-        console.log('rolled away');
+        console.log('answer 2/2', 'If you keep getting this answer, let me know about it because it could be a bug.');
     }
     // } else {
     //     // display concern
@@ -103,14 +106,14 @@ function scenario2() {
     alert('You are now sitting by a river bed. The water looks inviting but you know better than to go in because you will sink to the bottom. As you sit there staring at the water, some storm clouds gather overhead, threatening to rain. Rain never bothered you anyway, but this could be enough to flood, and you know what that means...');
     ans2 = prompt('Do you: A. Wait to see how bad it gets. Or B. Roll into the river?');
     // takes answer
-    if (ans2 == 'A','a') {
+    if (ans2 == 'a') {
         // display S2a1
         alert('You continue to sit there, staring up at the storm clouds. It soon starts to rain. As it continues raining, more water covers the ground. Eventually a nearby creek floods over and washes you away with it.');
-        console.log('sat there');
-    } else if (ans2 == 'B','b') {
+        console.log('answer 1/2');
+    } else if (ans2 == 'b') {
         // display S2a2
         alert('You roll over into the river. As you do this, you start to sink to the bottom. When you reach the bottom, you see other kinds of rocks sitting there. Along with other kinds of rocks, there are also some different items people have lost to the water. There is even a shiny gold ring. Wonder how that got there... For now, you are stuck at the bottom of the riverbed, waiting for what comes next.');
-        console.log('rolled into river');
+        console.log('answer 2/2');
      } // else {
     //     alert('Seriously? You just can\'t answer like a human being can you? Just answer the question with either \'a\' or \'b\'!');
     //     console.log('still an idiot');
@@ -128,16 +131,16 @@ function scenario3() {
     alert('Anyway, a line is tossed into the water. It seems like whoever is in the boat is going fishing. Lucky them. As you sit there while they are fishing a fish comes near you. Normally the fish that swim in the river are all attracted to shrimpy things or bugs but this fish seems to be attracted to shiny objects... You aren\'t sure if its you the fish is interested in or the shiny ring next to you... but it starts swiming fast towards you!');
     ans3 = prompt('Do you: A. Stay where you are and see what happends? or B. Run/swim away from the fish?');
     // takes answer
-    if (ans3 == 'A','a') {
+    if (ans3 == 'a') {
         // display S3a1
         alert('You stay where you are and the fish sees you and swallows you up, thinking you are shiny food! (If it was aiming for the ring next to you, its a stupid fish!) As you now sit inside the mouth of the fish, it just so happens that same fish gets caught by the people fishing in the river. When they open the mouth of the fish and see you in it, they take you out and throw you back in the river... You might never feel the grass again at this point.');
         alert('The end...')
-        console.log('stayed');
-    } else if (ans3 == 'B','b') {
+        console.log('answer 1/2');
+    } else if (ans3 == 'b') {
         // display S3a2
         alert('You are a rock, you can\'t run or swim! You can\'t even move! Luckily, the fish was going for a shiny lure that just so happened to be nearby. The fish got caught on the lure and was brought up to the surface while you stayed down at the bottom. Who knows how long you will be stuck down there.');
         alert('The end...');
-        console.log('idiot rock');
+        console.log('answer 2/2');
      } // else {
     //     alert('THATS IT! I PUT A LOT OF HARD WORK INTO THIS GAME AND THIS IS THE THANKS I GET!? i hope you know how to find this site again...');
     //     shutdown();
